@@ -8,6 +8,7 @@ public class ClientApplication {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DIConfiguration.class);
         MyApplication app = context.getBean(MyApplication.class);
         System.out.println("hello world");
+        System.out.println("not to worry");
         app.processMessage("Hi Pankaj", "pankaj@abc.com");
 
         //close the context

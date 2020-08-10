@@ -16,6 +16,7 @@ public class MyApplication {
 @Autowired
     public void setService(MessageService svc){
         this.service=svc;
+    System.out.println("hi");
     }
 
     public boolean processMessage(String msg, String rec){
