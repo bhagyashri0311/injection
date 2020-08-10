@@ -17,6 +17,7 @@ public class MyApplication {
     public void setService(MessageService svc){
         this.service=svc;
     System.out.println("hi");
+    System.out.println("hello");
     }
 
     public boolean processMessage(String msg, String rec){
